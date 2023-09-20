@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    height: 100vh;
+    background-color: #20364d;
+}
+
+header {
+    width: 100vw;
+    background-color: #20364d;
+    display: flex;
+}
+
+.logo {
+    width: 50%;
+    background-color: #20364d;
+
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+
+}
+
+.logo img {
+    width: 12rem;
+}
+
+nav {
+    width: 50%;
+    padding-right: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color:#fff;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+main {
+    width: 100vw;
+
+    padding-left: 4rem;
+    padding-top: 2rem;
+    background-color: #20364d;
+}
+
+main article {
+width: 50%;
+float: left;
+}
+
+main h1 {
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+main h1 span {
+    color: #ffd358;
+}
+
+main p  {
+    padding-left: 1rem;
+    padding-right: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 20px;
+    color: #aaa;
+    text-align: center;
+}
+
+article .inputs {
+display: flex;
+flex-direction: column;
+gap: .5rem;
+}
+
+article .inputs input {
+    border: none;
+    outline: none;
+    align-self: flex-start;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+}
+
+main .banner {
+    width: 50%;
+    float:right;
+}
+
+.btn {
+    background-color: rgb(231, 116, 135);
+    font-weight: 600;
+    cursor:pointer;
+    transition: .5s ease-out;
+}
+
+.btn:houver {
+    opacity: 1;
+}
+
+main .banner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
